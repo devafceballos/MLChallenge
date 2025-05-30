@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/searchFragment"
         android:name="com.example.mlchallenge.view.SearchFragment"
-        android:label="Buscar"
+        android:label="Curious Gin"
         tools:layout="@layout/fragment_search" >
         <action
             android:id="@+id/action_searchFragment_to_articleListFragment"
@@ -21,7 +21,7 @@
     <fragment
         android:id="@+id/articleListFragment"
         android:name="com.example.mlchallenge.view.ArticleListFragment"
-        android:label="Resultados"
+        android:label="Gin encontó esto:"
         tools:layout="@layout/fragment_article_list" >
         <argument
             android:name="query"

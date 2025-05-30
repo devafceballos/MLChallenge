@@ -29,7 +29,7 @@ val appModule = module {
         val request = chain.request().newBuilder()
             .addHeader(
                 "Authorization",
-                "Bearer APP_USR-6315200748403805-053011-cf0d12ea016e477cd91359e83bcbcfab-181588843"
+                "Bearer APP_USR-6315200748403805-053017-21100b58734106372873be15d5c2a77b-181588843"
             )
             .build()
         chain.proceed(request)
