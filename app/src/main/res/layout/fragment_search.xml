@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutSearch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/gin_app_background">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="Curious Gin"
+        android:textSize="24sp"
+        android:textColor="@color/gin_dark_color"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="8dp" />
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/gin_search_frg"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="64dp"
+        android:foregroundGravity="center"/>
+
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/item_search"
+        android:textColorHint="@color/gin_dark_color"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/botonBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_btn_text"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/gin_dark_color"
+        android:textColor="@android:color/white" />
+</LinearLayout>

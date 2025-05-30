@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.MLChallenge" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.MLChallenge" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Colores y personalización -->
+        <item name="colorPrimary">@color/gin_primary_color</item>
+        <item name="colorPrimaryVariant">@color/gin_primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/gin_secondary_color</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Fondo -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Icono en la barra de estado -->
+        <item name="android:statusBarColor" >@color/purple_700</item>
+
+        <item name="android:textColorPrimary">@color/gin_dark_color</item>
+        <item name="colorControlNormal">@color/gin_dark_color</item>
+    </style>
 </resources>

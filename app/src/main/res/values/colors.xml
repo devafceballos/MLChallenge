@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gin_primary_color">#f9ece4</color>
+    <color name="gin_secondary_color">#ccab95</color>
+    <color name="gin_primary_variant">#ecdcd4</color>
+    <color name="gin_dark_color">#6e2c00</color>
+
+    <!-- Azul suave Material para botones -->
+    <color name="blue_button">#1976D2</color>
 </resources>
