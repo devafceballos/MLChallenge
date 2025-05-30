@@ -26,5 +26,5 @@ Aplicación Android desarrollada como parte de un challenge técnico. Permite bu
 - **ViewBinding**
 - **Glide (carga de imágenes)**
 
-- A tener en cuenta:
-Renovar el AccessToken. Se encuentra en la clase AppModule en el package DI. Linea 32. Remplazar el jwt del Header.
+- **A tener en cuenta:
+Renovar el AccessToken. Se encuentra en la clase AppModule en el package DI. Linea 32. Remplazar el jwt del Header.**
